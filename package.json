@@ -1,6 +1,6 @@
 {
   "name": "n",
-  "homepage": "https://makwanaavi.github.io/Voice-AI-Agents-for-Developers-Landing-Page",
+  "homepage": "https://makwanaavi.github.io/voice-ai",
   "description": "This is a boilerplate build with Vite, React 18, TypeScript, Vitest, Testing Library, TailwindCSS 3, Eslint and Prettier.",
   "version": "0.1.0",
   "private": true,
