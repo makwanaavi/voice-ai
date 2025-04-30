@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react-swc'
 import path from 'path'
 
 export default defineConfig({
-
+  base: '/voice-ai/', // GitHub Pages subfolder
   plugins: [react()],
   resolve: {
     alias: {
@@ -11,7 +11,7 @@ export default defineConfig({
     }
   },
   server: {
-    host: 'localhost', // Ensure the server only runs locally
-    port: 5173         // Optional: you can change this port if needed
+    host: 'localhost',
+    port: 5173
   }
 })
